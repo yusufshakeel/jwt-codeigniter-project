@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+# Set the following accordingly
+# My project URL is http://localhost:8888/jwt-codeigniter-project/
+# So, I am setting the following.
+RewriteBase /jwt-codeigniter-project/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+</IfModule>
+
+# Disable Directory Browsing
+Options All -Indexes

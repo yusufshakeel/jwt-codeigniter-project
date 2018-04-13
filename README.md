@@ -1,22 +1,22 @@
 # jwt-codeigniter-project
 This is a CodeIgniter project using JWT to authenticate users.
 
-# Author
+### Author
 
 [Yusuf Shakeel](https://github.com/yusufshakeel)
 
-# License
+### License
 
 MIT License Copyright (c) 2018 Yusuf Shakeel
 
-# Backend
+### Backend
 
 Using the following in the backend part.
 
 * Php CodeIgniter framework v3.1.8
 * MariaDB
 
-# Frontend
+### Frontend
 
 Using the following in the frontend part.
 
