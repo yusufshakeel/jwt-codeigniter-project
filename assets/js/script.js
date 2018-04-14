@@ -1,3 +1,11 @@
+/*!
+ * Author: Yusuf Shakeel
+ * Date: 13-April-2018 Fri
+ * Version: 1.0
+ *
+ * File: script.js
+ * Description: This file contains the script for the home page.
+ */
 $(function () {
 
     // signup

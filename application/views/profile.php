@@ -28,6 +28,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div id="result"></div>
 
+            <h3 class="text-center">JWT lifespan is set for <?php echo WEBSITE_JWT_LIFESPAN; ?> seconds for this demo.</h3>
+
         </div>
     </div>
 </div>

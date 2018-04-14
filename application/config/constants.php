@@ -101,3 +101,4 @@ define('DB_TBL_USER', 'user');
 
 //------------------------ JWT --------------------------
 define('WEBSITE_JWT_SECRET', 'this-is-the-jwt-secret');
+define('WEBSITE_JWT_LIFESPAN', 60); // total seconds JWT remains valid

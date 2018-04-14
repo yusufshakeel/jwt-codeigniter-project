@@ -1,6 +1,19 @@
+<?php
+/**
+ * Author: Yusuf Shakeel
+ * Date: 13-April-2018 Fri
+ * Version: 1.0
+ *
+ * File: footer.php
+ * Description: This file contains the footer template.
+ */
+?>
+
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+            <hr>
 
             <div class="text-center">
                 <h3>Donate</h3>

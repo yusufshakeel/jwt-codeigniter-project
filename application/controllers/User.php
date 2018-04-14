@@ -116,9 +116,12 @@ class User extends CI_Controller
 
                 // on success generate jwt
                 if (isset($result['status']) && $result['status'] === 'success') {
+                    $issuedAt = time();
+                    $expirationTime = $issuedAt + WEBSITE_JWT_LIFESPAN;
                     $payload = array(
                         'id' => $result['id'],
-                        't' => time()
+                        'iat' => $issuedAt,
+                        'exp' => $expirationTime
                     );
                     $key = WEBSITE_JWT_SECRET;
                     $alg = 'HS256';
@@ -164,6 +167,7 @@ class User extends CI_Controller
                     $decoded_array = (array)$decoded;
 
                     $result = $this->user_model->getUser($decoded_array['id']);
+                    $result['jwt_payload'] = $decoded_array;
 
                 } catch (\Exception $e) {
                     $result = array(
