@@ -13,12 +13,15 @@ Using the following in the backend part.
 
 * Php CodeIgniter framework v3.1.8
 * MariaDB
+* [firebase/php-jwt](https://github.com/firebase/php-jwt)
 
 ### Frontend
 
 Using the following in the frontend part.
 
-* Twitter Bootstrap v4
+* Twitter Bootstrap v4.0
+* FontAwesome v4.7
+* jQuery v3.2.1
 
 
 ### License
